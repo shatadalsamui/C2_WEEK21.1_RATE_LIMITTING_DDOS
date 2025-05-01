@@ -1,5 +1,23 @@
 # OTP Security Demonstration
 
+## Understanding DDoS and Rate Limiting
+
+### DDoS (Distributed Denial of Service)
+A DDoS attack overwhelms a target server with a flood of internet traffic from multiple sources, making the service unavailable to legitimate users. It's like a traffic jam clogging up a highway, preventing regular traffic from reaching its destination.
+
+### Rate Limiting
+Rate limiting controls the number of requests a client can make to a server within a specific time frame. It's like a bouncer at a club, only allowing a certain number of people in per minute.
+
+### Solutions at a Glance
+1. **Rate Limiting**: Restrict requests per IP/user
+2. **CAPTCHA**: Verify human users
+3. **Web Application Firewall (WAF)**: Filter and monitor HTTP traffic
+4. **Load Balancing**: Distribute traffic across multiple servers
+5. **IP Blacklisting**: Block known malicious IPs
+
+---
+
+## Project Overview
 This project demonstrates OTP (One-Time Password) security concepts, including rate limiting and brute force attack prevention. It consists of two main components:
 
 1. **Backend Server**: A Node.js/Express server that implements OTP generation and validation with rate limiting.
