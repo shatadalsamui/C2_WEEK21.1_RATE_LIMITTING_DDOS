@@ -78,4 +78,3 @@ The attack includes built-in rate limiting (3 requests per second by default) to
 [!] OTP: 123456
 [!] New Password: hacked123
 ```
-
